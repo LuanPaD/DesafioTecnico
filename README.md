@@ -101,9 +101,9 @@ curl "http://localhost:3000/boletos?valor_inicial=100&valor_final=500"
 curl "http://localhost:3000/boletos?relatorio=1"
 
 ## 🚀 Como Iniciar o Projeto
-npm install          # Instala as dependências
-npm run seed         # Cria as tabelas e popula a tabela "lote"
-npm start            # Inicia o servidor na porta 3000
+-npm install          # Instala as dependências
+-npm run seed         # Cria as tabelas e popula a tabela "lote"
+-npm start            # Inicia o servidor na porta 3000
 
 Os documentos CSV e PDF paginado estão na raiz do projeto: 
 - boleto.csv
