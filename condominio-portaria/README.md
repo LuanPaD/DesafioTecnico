@@ -76,35 +76,36 @@ DB_PORT="5434"
 PORT=3000
 ```
 
-📡 Exemplos de Consumo das Rotas
-📥 Importar CSV
+## 📡 Exemplos de Consumo das Rotas
+
+## 📥 Importar CSV
 curl -X POST http://localhost:3000/importar-csv \
   -H "Content-Type: multipart/form-data" \
   -F "file=@uploads/csv/boletos.csv"
 
-📥 Importar PDF
+## 📥 Importar PDF
 curl -X POST http://localhost:3000/importar-pdf \
   -H "Content-Type: multipart/form-data" \
   -F "file=@uploads/pdf/boletos.pdf"
 
-📄 Obter Todos os Boletos (JSON)
+## 📄 Obter Todos os Boletos (JSON)
 curl http://localhost:3000/boletos
 
-📄 Filtrar por Nome e Lote
+## 📄 Filtrar por Nome e Lote
 curl "http://localhost:3000/boletos?nome=João&id_lote=2"
 
-💰 Filtrar por Valor
+## 💰 Filtrar por Valor
 curl "http://localhost:3000/boletos?valor_inicial=100&valor_final=500"
 
-📤 Gerar Relatório PDF (base64)
+## 📤 Gerar Relatório PDF (base64)
 curl "http://localhost:3000/boletos?relatorio=1"
 
-🚀 Como Iniciar o Projeto
+## 🚀 Como Iniciar o Projeto
 npm install          # Instala as dependências
 npm run seed         # Cria as tabelas e popula a tabela "lote"
 npm start            # Inicia o servidor na porta 3000
 
-🔄 Ordem de uso:
+## 🔄 Ordem de uso:
 Envie um CSV para /importar-csv
 
 Exemplo: http://localhost:3000/importar-csv
