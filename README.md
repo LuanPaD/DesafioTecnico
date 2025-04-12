@@ -105,6 +105,10 @@ npm install          # Instala as dependências
 npm run seed         # Cria as tabelas e popula a tabela "lote"
 npm start            # Inicia o servidor na porta 3000
 
+Os documentos CSV e PDF paginado estão na raiz do projeto: 
+- boleto.csv
+- boleto.pdf
+
 ## 🔄 Ordem de uso:
 Envie um CSV para /importar-csv
 
