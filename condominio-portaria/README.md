@@ -1,4 +1,4 @@
-# 📦 Projeto: Condomínio Portaria - Backend
+# 📦 Projeto: Desafio - Condomínio Portaria - Backend
 
 API desenvolvida com **Node.js** e **Fastify** para importação e gestão de boletos via arquivos **CSV** e **PDF**, com persistência em **PostgreSQL** e geração de relatórios em **PDF (base64)**.
 
