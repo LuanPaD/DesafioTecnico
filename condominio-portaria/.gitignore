@@ -1,13 +1,15 @@
 # Ignora variáveis de ambiente
 .env
 
-# Mantém as pastas de upload mas ignora seus conteúdos
+# Ignora tudo dentro de uploads/csv, exceto .gitkeep
 src/uploads/csv/*
 !src/uploads/csv/.gitkeep
+
+# Ignora tudo dentro de uploads/pdf, exceto .gitkeep
 src/uploads/pdf/*
 !src/uploads/pdf/.gitkeep
 
-# Mantém a pasta splitted_pdfs mas ignora seus conteúdos
+# Ignora tudo dentro de splitted_pdfs, exceto .gitkeep
 splitted_pdfs/*
 !splitted_pdfs/.gitkeep
 
