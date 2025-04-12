@@ -1,0 +1,19 @@
+# Ignora variáveis de ambiente
+.env
+
+# Mantém as pastas de upload mas ignora seus conteúdos
+src/uploads/csv/*
+!src/uploads/csv/.gitkeep
+src/uploads/pdf/*
+!src/uploads/pdf/.gitkeep
+
+# Mantém a pasta splitted_pdfs mas ignora seus conteúdos
+splitted_pdfs/*
+!splitted_pdfs/.gitkeep
+
+# Ignora dependências
+node_modules/
+
+# Ignora arquivos temporários de sistema
+.DS_Store
+Thumbs.db
